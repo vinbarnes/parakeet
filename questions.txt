@@ -1,0 +1,3 @@
+- randomly select object and display -- controller / model only (no view to simplify things)
+- add link to wikipedia ?
+-
