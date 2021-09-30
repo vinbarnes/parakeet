@@ -1,24 +1,12 @@
-# README
+Write business logic only (new view required)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Technical Exercise (timebox: 20 minutes)
 
-Things you may want to cover:
+Create endpoint that:
+- Finds random solar system object
+  - Return as an html element
 
-* Ruby version
+2. Technical Discussion (timebox: 15 minutes)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Say we would like to search by text on any given column of solar system object. How would you design that?
+- In addition to that, we want to negate certain search results. How would we achieve that?

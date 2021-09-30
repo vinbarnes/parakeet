@@ -10,22 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_30_034706) do
-
-  create_table "query_filters", force: :cascade do |t|
-    t.integer "saved_query_id"
-    t.string "label"
-    t.boolean "negate"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["saved_query_id"], name: "index_query_filters_on_saved_query_id"
-  end
-
-  create_table "saved_queries", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 2021_09_30_031442) do
 
   create_table "solar_system_objects", force: :cascade do |t|
     t.string "body"
